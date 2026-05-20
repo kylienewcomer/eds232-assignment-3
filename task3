@@ -1,0 +1,16 @@
+---
+title: "Considerations in High Dimensions Reflection"
+author: "Kylie Newcomer"
+format: html
+---
+
+This document investigates and clarifies concepts found in "An Introduction to Statistical Learning with Applications in Python" about how to fit High Dimensional data and interpret results.
+
+## Concept: 
+In what scenarios are lasso or ridge regressions better for high-dimensional data and how does interpreting those results differ?
+
+## Prompt:
+I am a student in an environmental machine learning course. We have a reading on high dimensional data and I am struggling to understand in what types of scenarios a lasso or ridge regression would be better for environmental data
+
+## Reflection
+For this assigment, I used Claude AI to get clarification on when using a lasso or ridge regression would be better in different environmental scenarios. The main takeaway was considering when values should be zeroed out vs when they should not. I received a few examples which helped emphasize the idea that some predictor variables may be less important but are still predictor variables and thus should not be zeroed out. Additionally, it provided caveats of each type especially emphasizing that lasso can be unstable. This was not mentioned in the book, however the authors did not go into as much detail about using lasso and ridge regressions in this section.
